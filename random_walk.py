@@ -16,7 +16,7 @@ class RandomWalk():
 
         # Steps are generated to achieve the desired length.
         while len(self.x_values) < self.num_points:
-            #
+            # Determination of the direction and length of the movement.
             x_direction = choice([1, -1])
             x_distance = choice([0, 1, 2, 3, 4])
             x_step = x_direction * x_distance
